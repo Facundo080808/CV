@@ -16,12 +16,12 @@ interface Props {
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="description" content="Astro description" />
-		<meta name="viewport" content="width=device-width" />
+		<meta name="viewport" content="width=device-width , initial-scale=1" />
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<meta name="generator" content={Astro.generator} />
 		<title>Mi CV</title>
 	</head>
-	<body >
+	<body class="w-screen">
 
 		<!--<div class="absolute inset-0 -z-10 h-full w-full bg-white bg-[linear-gradient(to_right,#f0f0f0_1px,transparent_1px),linear-gradient(to_bottom,#f0f0f0_1px,transparent_1px)] bg-[size:6rem_4rem]">
 			<div class="absolute bottom-0 left-0 right-0 top-0 bg-[radial-gradient(circle_500px_at_50%_200px,#C9EBFF,transparent)] w-screen h-screen"></div>
@@ -36,6 +36,7 @@ interface Props {
 	:root {
 		color-scheme: light dark;
 		text-align: center;
+
 	}
 	html {
 		font-family: system-ui, sans-serif;

@@ -1,3 +1,42 @@
-<h2>
-    Keyboard
-</h2>
+---
+import Correo from "./icons/correo.astro";
+import {Profiles} from '../cv.json'
+
+
+
+---
+<footer class=" text-center">
+    Pulsa <kbd>ctrl</kbd> + <kbd>k</kbd>
+    <ninja-keys placeholder="Buscar comando"
+    hideBreadcrumbs
+    >
+        
+    </ninja-keys>
+</footer>
+<script>
+    
+    import "ninja-keys"
+    const ninja = document.querySelector("ninja-keys");
+    if (ninja) {
+        ninja.data=[{
+            id:"print",
+            title:"Imprimir",
+            icon:"🖨️",
+            hotkey:"ctrl + p",
+            section:"Acciones",
+            handler:()=>{
+                window.print()
+            }
+        }
+        
+        
+    ]
+    }
+</script>
+<style>
+    @media print {
+        ninja-keys , footer{
+            display: none !important;
+        }
+    }
+</style>
