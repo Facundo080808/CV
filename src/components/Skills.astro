@@ -1,0 +1,16 @@
+---
+import Section from "./Section.astro";
+import {skills} from "../cv.json"
+const {keywords} = skills[0]
+---
+<Section title="Skills">
+    <ul class="flex flex-row flex-wrap gap-2">
+        {keywords.map(element =>{
+            return(
+                <li class="rounded-md bg-gray-200 text-black text-sm font-medium px-3 py-1">
+                    {element}
+                </li>
+            )
+        })}
+    </ul>
+</Section>

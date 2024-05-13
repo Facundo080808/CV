@@ -1,0 +1,105 @@
+{
+    "basics": {
+      "name": "Cortez Arturo Facundo",
+      "label": "Desarrollador web full stack y creador de contenido",
+      "image": "C:\\Users\\Cc-nta Software\\Desktop\\lonely-light\\public\\Imagen2.jpg",
+      "email": "cortezfacundo08@gmail.com",
+      "phone": "(381) 211 7993 ",
+      "url": "https://johndoe.com",
+      "summary": " Apasionado por el desarrollo web full stack con sólida formación en tecnologías front-end y back-end. He completado cursos y proyectos personales donde he adquirido habilidades en HTML, CSS, JavaScript, y tengo experiencia con frameworks como React.js y Node.js. Mi enfoque es aprender de forma continua y aplicar mis conocimientos en proyectos prácticos para mejorar mis habilidades. Estoy motivado para colaborar en equipos de desarrollo web dinámicos y contribuir con mi creatividad y entusiasmo. Busco oportunidades para crecer profesionalmente en el mundo del desarrollo web.",
+      "location": {
+        "address": "",
+        "postalCode": "T4132",
+        "city": "famailla",
+        "countryCode": "",
+        "region": "Tucuman",
+        "country":"Argentina"
+      },
+      "profiles": [{
+        "network": "Twitter",
+        "username": "@theDev12345",
+        "url": "https://twitter.com/theDev12345"
+      },
+      {
+        "network":"Github",
+        "username":"Facundo080808",
+        "url":"https://github.com/Facundo080808"
+      },
+      {
+        "network":"Linkedin",
+        "username":"Facundo Cortez",
+        "url":"https://www.linkedin.com/in/facundo-cortez-9814172a1/"
+      }
+    
+    ]
+    },
+    "education": [
+      {
+      "institution": "Universidad tecnologica nacional",
+      "url": "https://utn.edu.ar/es/",
+      "area": "Sistemas",
+      "startDate": "2023-03-01",
+      "endDate": "2025-08-01",
+      "score": "4.0"
+    },
+    {
+      "institution": "Soy Henry bootcamp",
+      "url": "https://www.soyhenry.com/?utm_source=google&utm_medium=cpc&utm_campaign=GADS_SEARCH_ARG_BRAND&utm_content=Brand&gad_source=1&gclid=Cj0KCQjwxeyxBhC7ARIsAC7dS38nTl37awfVvsdEnMpSNjPNX2-a36gi-Hg0hysDggCVvXc2nlEY6ZoaAuDVEALw_wcB",
+      "area": "Desarrollo web Full stack",
+      "startDate": "2023-11-04",
+      "endDate": "2024-07-01"   
+    }
+  ],
+    "awards": [{
+      "title": "Award",
+      "date": "2014-11-01",
+      "awarder": "Company",
+      "summary": "There is no spoon."
+    }],
+    "certificates": [{
+      "name": "Certificate",
+      "date": "2021-11-07",
+      "issuer": "Company",
+      "url": "https://certificate.com"
+    }],
+    "skills": [{
+      "name": "Web Development",
+      "level": "Trainee",
+      "keywords": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "React",
+        "Redux",
+        "Node.js ",
+        "Astro",
+        "Tailwind",
+        "Posgresql",
+        "MongoDB",
+        "Git",
+        "Github"
+      ]
+    }],
+    "languages": [{
+      "language": "English",
+      "fluency": "Native speaker"
+    }],
+    
+    
+    "projects": [{
+      "name": "Countries",
+      "startDate": "2024-03-17",
+      "endDate": "2024-04-08",
+      "description": "Una pagina web , que su funcion es mostrar los paises del mundo , con su informacion especifica y ver o crear las actividades turisticas de cada pais.",
+
+      "url": "https://project.com/"
+    },
+    {
+      "name":"Drivers",
+      "startDate":"2024-02-03",
+      "endDate":"2024-03-25",
+      "description":"Una pagina web cuya funcion es mostrar corredores activos de formula 1 con sus respectivas caracteristicas y escuderias.",
+      "url":""
+    }
+  ]
+  }

@@ -1,0 +1,38 @@
+---
+import {basics } from "../cv.json"
+import {basics } from "../cv.json"
+import { log } from "node_modules/astro/dist/core/logger/core";
+import Linkedin from "./icons/linkedin.astro";
+import Github from "./icons/github.astro";
+import Correo from "./icons/correo.astro";
+
+const {name , label , image , email ,phone , profiles } = basics;
+const {region , country} = basics.location;
+---
+<section class="flex flex-row max-w-1000 mx-auto justify-between gap-20 whitespace-nowrap ">
+    
+        <article class="flex flex-col " >
+            <h1 class="text-5xl">{name}</h1>
+            <h2>{label}</h2>
+            <h3>📍{region}, {country}</h3>
+            <article class="flex flex-row justify-start items-center gap-4">
+               <figure class="shadow-lg p-1 hover:scale-125 transition-all">
+                <a href="https://www.linkedin.com/in/facundo-cortez-9814172a1/"><Linkedin ></Linkedin></a>
+               </figure>
+               <figure class="shadow-lg p-1 hover:scale-125 transition-all">
+                <a href="https://github.com/Facundo080808"><Github></Github></a>
+               </figure>
+                <figure class="shadow-lg p-1 hover:scale-125 transition-all">
+                    <a href="https://twitter.com/theDev12345"><Correo></Correo></a>
+                </figure>
+                
+            </article>
+    
+        </article>
+        <figure >
+        <img class="flex rounded-xl w-full h-auto max-w-[150px]  " src="../public/Imagen2.jpg" alt="">
+        </figure>
+            
+</section>
+
+

@@ -1,0 +1,31 @@
+---
+import {education } from "../cv.json"
+import Section from "./Section.astro"; 
+
+
+
+---
+
+    
+    <section class="grid grid-cols-2 gap-28 pl-16">
+    
+     {education.map(elemento => {
+            return (
+                <article class="m-2">
+                    <h1><strong>{elemento.institution}</strong></h1>
+                    <h2>{elemento.area}</h2>
+                    <h3 class="overflow-hidden whitespace-nowrap w-40 truncate" >{elemento.url}</h3>
+                    <h4>{elemento.startDate}, {elemento.endDate}</h4>
+                </article>
+                
+            );
+        })}
+    
+</section>
+<style>
+    section{
+        display: grid;  
+        grid-template-columns: repeat(auto-fit,minmax(200px,1fr 1fr));
+        gap: 1rem;
+    }
+</style>
