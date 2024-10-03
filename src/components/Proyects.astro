@@ -8,7 +8,7 @@ Section
         {projects.map(element =>{
             return(
                 <article class="m-5">
-                    <h1 class="text-xl to-black"><strong>{element.name}</strong></h1>
+                    <a href={element.url}><h1 class="text-xl to-black underline"><strong>{element.name}</strong></h1></a>
                     <p>{element.description}</p>
                     <h2>{element.startDate}, {element.endDate}</h2>
                 </article>

@@ -52,7 +52,7 @@
   ],
 
     "skills": [{
-      "name": "Web Development",
+      "name": "Software Development",
       "level": "Trainee",
       "keywords": [
         "HTML",
@@ -66,7 +66,10 @@
         "Posgresql",
         "MongoDB",
         "Git",
-        "Github"
+        "Github",
+        "bootstrap",
+        "Electron",
+        "Figma"
       ]
     }],
     "languages": [{
@@ -76,19 +79,26 @@
     
     
     "projects": [{
-      "name": "Countries",
-      "startDate": "2024-03-17",
-      "endDate": "2024-04-08",
-      "description": "Una pagina web , que su funcion es mostrar los paises del mundo , con su informacion especifica y ver o crear las actividades turisticas de cada pais.",
+      "name": "The Hose Factory",
+      "startDate": "05/05/2024",
+      "endDate": "27/05/2024",
+      "description": "Proyecto final de henry, creado por un equipo de 6 integrantes incluyendome, es un e-Commerce de una fabrica de mangueras, llamada The Hose Factory",
 
-      "url": "https://project.com/"
+      "url": "https://github.com/Uristides/PF-Mangueras-F"
     },
     {
-      "name":"Drivers",
-      "startDate":"2024-02-03",
-      "endDate":"2024-03-25",
-      "description":"Una pagina web cuya funcion es mostrar corredores activos de formula 1 con sus respectivas caracteristicas y escuderias.",
-      "url":""
+      "name":"e-commerce de calzados",
+      "startDate":"02-07-2024",
+      "endDate":"--",
+      "description":"Fue mi primer proyecto real con un cliente que quedo pendiente por falta de pagos. La pagina contaba con las cards de los productos de mi cliente, y tenia filtros por marcas. En la ruta protegida del admin podias editar los productos por medio de un CRUD completo, tambien tenias la opcion de ver las ordenes de compra para gestionar los envios.",
+      "url":"https://github.com/Facundo080808/app-de-zapatillas-front"
+    },
+    {
+      "name":"Control de stock",
+      "startDate":"07-09-2024",
+      "endDate":"30-09-2024",
+      "description":"Una aplicacion de escritorio creada con Electron.js ,HTML ,CSS, Javascript, bootstrap. Para el back utilice postgresql, express y node.js. Esta aplicacion la cree para el local de limpieza en el cual trabajo actualmente, la aplicacion puede puede imprimir tickets de compra, asi como tambien un CRUD completo de los productos, tambien tiene un CRUD para crear promociones, y mi cliente tiene la opcion de filtros combinado para ver las compras creadas de la fecha que el quiera por medio de un input de tipo DATE y tambien para filtrar las ventas creadas con transferencia, efectivo o delivery.",
+      "url":"https://github.com/Facundo080808/Control-de-stock"
     }
   ]
   }

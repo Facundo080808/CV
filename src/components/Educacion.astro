@@ -12,9 +12,8 @@ import Section from "./Section.astro";
      {education.map(elemento => {
             return (
                 <article class="m-2">
-                    <h1><strong>{elemento.institution}</strong></h1>
+                    <a href={elemento.url}><h1 class="underline"><strong>{elemento.institution}</strong></h1></a>
                     <h2>{elemento.area}</h2>
-                    <h3 class="overflow-hidden whitespace-nowrap w-40 truncate" >{elemento.url}</h3>
                     <h4>{elemento.startDate}, {elemento.endDate}</h4>
                 </article>
                 

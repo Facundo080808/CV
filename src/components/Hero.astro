@@ -7,9 +7,9 @@ const {name , label  } = basics;
 const {region , country} = basics.location;
 ---
 
-<section class="flex flex-row max-w-1000 mx-auto justify-between gap-20 whitespace-nowrap ">
+<section class="flex flex-col w-full mx-auto justify-center  whitespace-nowrap ">
     
-        <article class="flex flex-col " >
+        
             <h1 class="text-5xl">{name}</h1>
             <h2>{label}</h2>
             <h3>📍{region}, {country}</h3>
@@ -26,10 +26,8 @@ const {region , country} = basics.location;
                 
             </article>
     
-        </article>
-        <figure >
-        <img class="flex rounded-xl w-full h-auto max-w-[150px]  " src="/public/imagen1.png">
-        </figure>
+      
+       
             
 </section>
 
